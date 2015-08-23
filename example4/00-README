@@ -1,0 +1,14 @@
+nohup ../main.py --alnformat nexus -t 2 --dtc --startingtree example4.tre --treeformat nexus example4.nex -m MTART LG RTREV MTMAM HIVB DAYHOFF DCMUT FLU CPREV BLOSUM62 PMB MTREV VT &
+19335 gry-compute01.core.nhgri.nih.gov Tue Mar 15 12:20:10 EDT 2011
+nohup ../main.py --alnformat nexus -t 2 --dtc --startingtree example4.tre --treeformat nexus example4.nex -m MTART LG RTREV MTMAM HIVB DAYHOFF DCMUT FLU CPREV BLOSUM62 PMB MTREV VT &
+19404 gry-compute01.core.nhgri.nih.gov Tue Mar 15 12:21:02 EDT 2011
+nohup ../main.py --alnformat nexus -t 6 --dtc --startingtree example4.tre --treeformat nexus example4.nex -m MTART LG RTREV MTMAM HIVB DAYHOFF DCMUT FLU CPREV BLOSUM62 PMB MTREV VT &
+19454 gry-compute01.core.nhgri.nih.gov Tue Mar 15 12:21:54 EDT 2011
+nohup ProtTest -i example4.phy -t example4.newick.tre &
+20395 gry-compute01.core.nhgri.nih.gov Tue Mar 15 12:34:32 EDT 2011
+nohup ../main.py --alnformat nexus -t 6 --dtc --startingtree example4.tre --treeformat nexus example4.nex -m MTART LG RTREV MTMAM HIVB DAYHOFF DCMUT FLU CPREV BLOSUM62 PMB MTREV VT &
+1363 gry-compute01.core.nhgri.nih.gov Tue Mar 15 16:06:44 EDT 2011
+nohup ../main.py --alnformat nexus -t 6 --dtc --startingtree example4.tre --treeformat nexus example4.nex -m MTART LG RTREV MTMAM HIVB DAYHOFF DCMUT FLU CPREV BLOSUM62 PMB MTREV VT &
+2073 gry-compute01.core.nhgri.nih.gov Tue Mar 15 16:17:12 EDT 2011
+nohup ../main.py --alnformat nexus -t 6 --dtc --startingtree example.tre --treeformat phylip ALN_CONVERTED.phy.reduced -m MTART LG RTREV MTMAM HIVB DAYHOFF DCMUT FLU CPREV BLOSUM62 PMB MTREV VT &
+2399 gry-compute01.core.nhgri.nih.gov Tue Mar 15 16:21:43 EDT 2011

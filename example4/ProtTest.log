@@ -1,0 +1,3192 @@
+
+
+ProtTest - 2.4                          Selection of models of protein evolution
+(c) 2004                          Federico Abascal, Rafael Zardoya, David Posada
+(FA, DP)            Facultad de Biologia, Universidad de Vigo, 36200 Vigo, Spain
+(RZ)                   Museo Nacional de Ciencias Naturales, 28006 Madrid, Spain
+Contact:                                  fedeabascal@yahoo.es, dposada@uvigo.es
+--------------------------------------------------------------------------------
+
+Tue Mar 15 12:34:33 EDT 2011
+OS = Linux (2.6.18-194.32.1.el5)
+
+
+ProtTest options
+----------------
+  Alignment file........... : example4.phy
+  Tree..................... : example4.newick.tre
+  StrategyMode............. : Fast (optimize branch lengths & model)
+  Candidate models......... : 
+    Matrices............... : JTT LG DCMut MtREV MtMam MtArt Dayhoff WAG RtREV CpREV Blosum62 VT HIVb HIVw 
+    Distributions.......... : +I +G +I+G 
+    Number of rate categ... : 4
+    Observed frequencies... : true
+  Statistical framework
+    Sort models according to....: AIC
+    Sample size.................: 0.0 (not calculated yet)
+      sampleSizeMode............: Total number of characters (aligment length)
+  Other options:
+    Display best tree in ASCII..: false
+    Display best tree in Newick.: true
+    Verbose.....................: true
+
+
+**********************************************************
+  Reading alignment...
+    Sequence #1: Aq1
+    Sequence #2: Aq10
+    Sequence #3: Aq11
+    Sequence #4: Aq12
+    Sequence #5: Aq13
+    Sequence #6: Aq14
+    Sequence #7: Aq15
+    Sequence #8: Aq16
+    Sequence #9: Aq17
+    Sequence #10: Aq18
+    Sequence #11: Aq19
+    Sequence #12: Aq2
+    Sequence #13: Aq20
+    Sequence #14: Aq21
+    Sequence #15: Aq22
+    Sequence #16: Aq23
+    Sequence #17: Aq24
+    Sequence #18: Aq25
+    Sequence #19: Aq26
+    Sequence #20: Aq27
+    Sequence #21: Aq28
+    Sequence #22: Aq29
+    Sequence #23: Aq3
+    Sequence #24: Aq30
+    Sequence #25: Aq31
+    Sequence #26: Aq32
+    Sequence #27: Aq33
+    Sequence #28: Aq34
+    Sequence #29: Aq35
+    Sequence #30: Aq36
+    Sequence #31: Aq37
+    Sequence #32: Aq38
+    Sequence #33: Aq39
+    Sequence #34: Aq4
+    Sequence #35: Aq40
+    Sequence #36: Aq41
+    Sequence #37: Aq42
+    Sequence #38: Aq43
+    Sequence #39: Aq44
+    Sequence #40: Aq45
+    Sequence #41: Aq46
+    Sequence #42: Aq47
+    Sequence #43: Aq48
+    Sequence #44: Aq5
+    Sequence #45: Aq6
+    Sequence #46: Aq7
+    Sequence #47: Aq8
+    Sequence #48: Aq9
+    Sequence #49: Dm1
+    Sequence #50: Dm10
+    Sequence #51: Dm11
+    Sequence #52: Dm12
+    Sequence #53: Dm13
+    Sequence #54: Dm14
+    Sequence #55: Dm15
+    Sequence #56: Dm16
+    Sequence #57: Dm17
+    Sequence #58: Dm18
+    Sequence #59: Dm19
+    Sequence #60: Dm2
+    Sequence #61: Dm20
+    Sequence #62: Dm21
+    Sequence #63: Dm22
+    Sequence #64: Dm23
+    Sequence #65: Dm24
+    Sequence #66: Dm25
+    Sequence #67: Dm26
+    Sequence #68: Dm27
+    Sequence #69: Dm28
+    Sequence #70: Dm29
+    Sequence #71: Dm3
+    Sequence #72: Dm30
+    Sequence #73: Dm31
+    Sequence #74: Dm32
+    Sequence #75: Dm33
+    Sequence #76: Dm34
+    Sequence #77: Dm35
+    Sequence #78: Dm36
+    Sequence #79: Dm37
+    Sequence #80: Dm38
+    Sequence #81: Dm39
+    Sequence #82: Dm4
+    Sequence #83: Dm40
+    Sequence #84: Dm41
+    Sequence #85: Dm42
+    Sequence #86: Dm43
+    Sequence #87: Dm44
+    Sequence #88: Dm45
+    Sequence #89: Dm46
+    Sequence #90: Dm47
+    Sequence #91: Dm48
+    Sequence #92: Dm49
+    Sequence #93: Dm5
+    Sequence #94: Dm50
+    Sequence #95: Dm51
+    Sequence #96: Dm52
+    Sequence #97: Dm53
+    Sequence #98: Dm54
+    Sequence #99: Dm55
+    Sequence #100: Dm56
+    Sequence #101: Dm57
+    Sequence #102: Dm58
+    Sequence #103: Dm59
+    Sequence #104: Dm6
+    Sequence #105: Dm60
+    Sequence #106: Dm61
+    Sequence #107: Dm62
+    Sequence #108: Dm63
+    Sequence #109: Dm64
+    Sequence #110: Dm65
+    Sequence #111: Dm66
+    Sequence #112: Dm67
+    Sequence #113: Dm68
+    Sequence #114: Dm69
+    Sequence #115: Dm7
+    Sequence #116: Dm70
+    Sequence #117: Dm71
+    Sequence #118: Dm72
+    Sequence #119: Dm73
+    Sequence #120: Dm74
+    Sequence #121: Dm75
+    Sequence #122: Dm76
+    Sequence #123: Dm77
+    Sequence #124: Dm78
+    Sequence #125: Dm79
+    Sequence #126: Dm8
+    Sequence #127: Dm80
+    Sequence #128: Dm81
+    Sequence #129: Dm82
+    Sequence #130: Dm83
+    Sequence #131: Dm84
+    Sequence #132: Dm85
+    Sequence #133: Dm86
+    Sequence #134: Dm9
+    Sequence #135: Hs1
+    Sequence #136: Hs10
+    Sequence #137: Hs100
+    Sequence #138: Hs101
+    Sequence #139: Hs102
+    Sequence #140: Hs103
+    Sequence #141: Hs104
+    Sequence #142: Hs105
+    Sequence #143: Hs106
+    Sequence #144: Hs107
+    Sequence #145: Hs108
+    Sequence #146: Hs109
+    Sequence #147: Hs11
+    Sequence #148: Hs110
+    Sequence #149: Hs111
+    Sequence #150: Hs112
+    Sequence #151: Hs113
+    Sequence #152: Hs114
+    Sequence #153: Hs115
+    Sequence #154: Hs116
+    Sequence #155: Hs117
+    Sequence #156: Hs118
+    Sequence #157: Hs119
+    Sequence #158: Hs12
+    Sequence #159: Hs120
+    Sequence #160: Hs121
+    Sequence #161: Hs122
+    Sequence #162: Hs123
+    Sequence #163: Hs124
+    Sequence #164: Hs125
+    Sequence #165: Hs126
+    Sequence #166: Hs127
+    Sequence #167: Hs128
+    Sequence #168: Hs129
+    Sequence #169: Hs13
+    Sequence #170: Hs130
+    Sequence #171: Hs131
+    Sequence #172: Hs132
+    Sequence #173: Hs133
+    Sequence #174: Hs134
+    Sequence #175: Hs135
+    Sequence #176: Hs136
+    Sequence #177: Hs137
+    Sequence #178: Hs138
+    Sequence #179: Hs139
+    Sequence #180: Hs14
+    Sequence #181: Hs140
+    Sequence #182: Hs141
+    Sequence #183: Hs142
+    Sequence #184: Hs143
+    Sequence #185: Hs144
+    Sequence #186: Hs145
+    Sequence #187: Hs146
+    Sequence #188: Hs147
+    Sequence #189: Hs148
+    Sequence #190: Hs149
+    Sequence #191: Hs15
+    Sequence #192: Hs150
+    Sequence #193: Hs151
+    Sequence #194: Hs152
+    Sequence #195: Hs153
+    Sequence #196: Hs154
+    Sequence #197: Hs155
+    Sequence #198: Hs156
+    Sequence #199: Hs157
+    Sequence #200: Hs158
+    Sequence #201: Hs159
+    Sequence #202: Hs16
+    Sequence #203: Hs160
+    Sequence #204: Hs161
+    Sequence #205: Hs162
+    Sequence #206: Hs163
+    Sequence #207: Hs164
+    Sequence #208: Hs165
+    Sequence #209: Hs166
+    Sequence #210: Hs167
+    Sequence #211: Hs168
+    Sequence #212: Hs169
+    Sequence #213: Hs17
+    Sequence #214: Hs170
+    Sequence #215: Hs171
+    Sequence #216: Hs172
+    Sequence #217: Hs173
+    Sequence #218: Hs174
+    Sequence #219: Hs175
+    Sequence #220: Hs176
+    Sequence #221: Hs177
+    Sequence #222: Hs178
+    Sequence #223: Hs179
+    Sequence #224: Hs18
+    Sequence #225: Hs180
+    Sequence #226: Hs181
+    Sequence #227: Hs182
+    Sequence #228: Hs183
+    Sequence #229: Hs184
+    Sequence #230: Hs185
+    Sequence #231: Hs186
+    Sequence #232: Hs187
+    Sequence #233: Hs188
+    Sequence #234: Hs189
+    Sequence #235: Hs19
+    Sequence #236: Hs190
+    Sequence #237: Hs191
+    Sequence #238: Hs192
+    Sequence #239: Hs193
+    Sequence #240: Hs194
+    Sequence #241: Hs195
+    Sequence #242: Hs196
+    Sequence #243: Hs197
+    Sequence #244: Hs198
+    Sequence #245: Hs199
+    Sequence #246: Hs2
+    Sequence #247: Hs20
+    Sequence #248: Hs200
+    Sequence #249: Hs201
+    Sequence #250: Hs202
+    Sequence #251: Hs203
+    Sequence #252: Hs204
+    Sequence #253: Hs205
+    Sequence #254: Hs206
+    Sequence #255: Hs207
+    Sequence #256: Hs208
+    Sequence #257: Hs209
+    Sequence #258: Hs21
+    Sequence #259: Hs210
+    Sequence #260: Hs211
+    Sequence #261: Hs212
+    Sequence #262: Hs213
+    Sequence #263: Hs214
+    Sequence #264: Hs215
+    Sequence #265: Hs216
+    Sequence #266: Hs217
+    Sequence #267: Hs218
+    Sequence #268: Hs219
+    Sequence #269: Hs22
+    Sequence #270: Hs220
+    Sequence #271: Hs221
+    Sequence #272: Hs222
+    Sequence #273: Hs223
+    Sequence #274: Hs224
+    Sequence #275: Hs225
+    Sequence #276: Hs226
+    Sequence #277: Hs227
+    Sequence #278: Hs228
+    Sequence #279: Hs229
+    Sequence #280: Hs23
+    Sequence #281: Hs230
+    Sequence #282: Hs231
+    Sequence #283: Hs232
+    Sequence #284: Hs233
+    Sequence #285: Hs234
+    Sequence #286: Hs235
+    Sequence #287: Hs236
+    Sequence #288: Hs237
+    Sequence #289: Hs238
+    Sequence #290: Hs239
+    Sequence #291: Hs24
+    Sequence #292: Hs240
+    Sequence #293: Hs241
+    Sequence #294: Hs242
+    Sequence #295: Hs243
+    Sequence #296: Hs244
+    Sequence #297: Hs245
+    Sequence #298: Hs246
+    Sequence #299: Hs247
+    Sequence #300: Hs248
+    Sequence #301: Hs249
+    Sequence #302: Hs25
+    Sequence #303: Hs250
+    Sequence #304: Hs251
+    Sequence #305: Hs252
+    Sequence #306: Hs253
+    Sequence #307: Hs254
+    Sequence #308: Hs255
+    Sequence #309: Hs256
+    Sequence #310: Hs257
+    Sequence #311: Hs258
+    Sequence #312: Hs259
+    Sequence #313: Hs26
+    Sequence #314: Hs260
+    Sequence #315: Hs261
+    Sequence #316: Hs262
+    Sequence #317: Hs263
+    Sequence #318: Hs264
+    Sequence #319: Hs265
+    Sequence #320: Hs266
+    Sequence #321: Hs267
+    Sequence #322: Hs268
+    Sequence #323: Hs269
+    Sequence #324: Hs27
+    Sequence #325: Hs270
+    Sequence #326: Hs271
+    Sequence #327: Hs272
+    Sequence #328: Hs273
+    Sequence #329: Hs274
+    Sequence #330: Hs275
+    Sequence #331: Hs276
+    Sequence #332: Hs277
+    Sequence #333: Hs278
+    Sequence #334: Hs279
+    Sequence #335: Hs28
+    Sequence #336: Hs280
+    Sequence #337: Hs281
+    Sequence #338: Hs282
+    Sequence #339: Hs283
+    Sequence #340: Hs284
+    Sequence #341: Hs285
+    Sequence #342: Hs286
+    Sequence #343: Hs287
+    Sequence #344: Hs288
+    Sequence #345: Hs289
+    Sequence #346: Hs29
+    Sequence #347: Hs290
+    Sequence #348: Hs291
+    Sequence #349: Hs292
+    Sequence #350: Hs293
+    Sequence #351: Hs3
+    Sequence #352: Hs30
+    Sequence #353: Hs31
+    Sequence #354: Hs32
+    Sequence #355: Hs33
+    Sequence #356: Hs34
+    Sequence #357: Hs35
+    Sequence #358: Hs36
+    Sequence #359: Hs37
+    Sequence #360: Hs38
+    Sequence #361: Hs39
+    Sequence #362: Hs4
+    Sequence #363: Hs40
+    Sequence #364: Hs41
+    Sequence #365: Hs42
+    Sequence #366: Hs43
+    Sequence #367: Hs44
+    Sequence #368: Hs45
+    Sequence #369: Hs46
+    Sequence #370: Hs47
+    Sequence #371: Hs48
+    Sequence #372: Hs49
+    Sequence #373: Hs5
+    Sequence #374: Hs50
+    Sequence #375: Hs51
+    Sequence #376: Hs52
+    Sequence #377: Hs53
+    Sequence #378: Hs54
+    Sequence #379: Hs55
+    Sequence #380: Hs56
+    Sequence #381: Hs57
+    Sequence #382: Hs58
+    Sequence #383: Hs59
+    Sequence #384: Hs6
+    Sequence #385: Hs60
+    Sequence #386: Hs61
+    Sequence #387: Hs62
+    Sequence #388: Hs63
+    Sequence #389: Hs64
+    Sequence #390: Hs65
+    Sequence #391: Hs66
+    Sequence #392: Hs67
+    Sequence #393: Hs68
+    Sequence #394: Hs69
+    Sequence #395: Hs7
+    Sequence #396: Hs70
+    Sequence #397: Hs71
+    Sequence #398: Hs72
+    Sequence #399: Hs73
+    Sequence #400: Hs74
+    Sequence #401: Hs75
+    Sequence #402: Hs76
+    Sequence #403: Hs77
+    Sequence #404: Hs78
+    Sequence #405: Hs79
+    Sequence #406: Hs8
+    Sequence #407: Hs80
+    Sequence #408: Hs81
+    Sequence #409: Hs82
+    Sequence #410: Hs83
+    Sequence #411: Hs84
+    Sequence #412: Hs85
+    Sequence #413: Hs86
+    Sequence #414: Hs87
+    Sequence #415: Hs88
+    Sequence #416: Hs89
+    Sequence #417: Hs9
+    Sequence #418: Hs90
+    Sequence #419: Hs91
+    Sequence #420: Hs92
+    Sequence #421: Hs93
+    Sequence #422: Hs94
+    Sequence #423: Hs95
+    Sequence #424: Hs96
+    Sequence #425: Hs97
+    Sequence #426: Hs98
+    Sequence #427: Hs99
+    Sequence #428: Mb1
+    Sequence #429: Mb10
+    Sequence #430: Mb11
+    Sequence #431: Mb12
+    Sequence #432: Mb13
+    Sequence #433: Mb14
+    Sequence #434: Mb15
+    Sequence #435: Mb16
+    Sequence #436: Mb17
+    Sequence #437: Mb18
+    Sequence #438: Mb19
+    Sequence #439: Mb2
+    Sequence #440: Mb20
+    Sequence #441: Mb21
+    Sequence #442: Mb22
+    Sequence #443: Mb3
+    Sequence #444: Mb4
+    Sequence #445: Mb5
+    Sequence #446: Mb6
+    Sequence #447: Mb7
+    Sequence #448: Mb8
+    Sequence #449: Mb9
+    Sequence #450: Ml1
+    Sequence #451: Ml10
+    Sequence #452: Ml11
+    Sequence #453: Ml12
+    Sequence #454: Ml13
+    Sequence #455: Ml14
+    Sequence #456: Ml15
+    Sequence #457: Ml16
+    Sequence #458: Ml17
+    Sequence #459: Ml18
+    Sequence #460: Ml19
+    Sequence #461: Ml2
+    Sequence #462: Ml20
+    Sequence #463: Ml21
+    Sequence #464: Ml22
+    Sequence #465: Ml23
+    Sequence #466: Ml24
+    Sequence #467: Ml25
+    Sequence #468: Ml26
+    Sequence #469: Ml27
+    Sequence #470: Ml28
+    Sequence #471: Ml29
+    Sequence #472: Ml3
+    Sequence #473: Ml30
+    Sequence #474: Ml31
+    Sequence #475: Ml32
+    Sequence #476: Ml33
+    Sequence #477: Ml34
+    Sequence #478: Ml35
+    Sequence #479: Ml36
+    Sequence #480: Ml37
+    Sequence #481: Ml38
+    Sequence #482: Ml39
+    Sequence #483: Ml4
+    Sequence #484: Ml40
+    Sequence #485: Ml41
+    Sequence #486: Ml42
+    Sequence #487: Ml43
+    Sequence #488: Ml44
+    Sequence #489: Ml45
+    Sequence #490: Ml46
+    Sequence #491: Ml47
+    Sequence #492: Ml48
+    Sequence #493: Ml49
+    Sequence #494: Ml5
+    Sequence #495: Ml50
+    Sequence #496: Ml51
+    Sequence #497: Ml52
+    Sequence #498: Ml53
+    Sequence #499: Ml54
+    Sequence #500: Ml55
+    Sequence #501: Ml56
+    Sequence #502: Ml57
+    Sequence #503: Ml58
+    Sequence #504: Ml59
+    Sequence #505: Ml6
+    Sequence #506: Ml60
+    Sequence #507: Ml61
+    Sequence #508: Ml62
+    Sequence #509: Ml63
+    Sequence #510: Ml64
+    Sequence #511: Ml65
+    Sequence #512: Ml66
+    Sequence #513: Ml67
+    Sequence #514: Ml68
+    Sequence #515: Ml7
+    Sequence #516: Ml8
+    Sequence #517: Ml9
+    Sequence #518: Nv1
+    Sequence #519: Nv10
+    Sequence #520: Nv11
+    Sequence #521: Nv12
+    Sequence #522: Nv13
+    Sequence #523: Nv14
+    Sequence #524: Nv15
+    Sequence #525: Nv16
+    Sequence #526: Nv17
+    Sequence #527: Nv18
+    Sequence #528: Nv19
+    Sequence #529: Nv2
+    Sequence #530: Nv20
+    Sequence #531: Nv21
+    Sequence #532: Nv22
+    Sequence #533: Nv23
+    Sequence #534: Nv24
+    Sequence #535: Nv25
+    Sequence #536: Nv26
+    Sequence #537: Nv27
+    Sequence #538: Nv28
+    Sequence #539: Nv29
+    Sequence #540: Nv3
+    Sequence #541: Nv30
+    Sequence #542: Nv31
+    Sequence #543: Nv32
+    Sequence #544: Nv33
+    Sequence #545: Nv34
+    Sequence #546: Nv35
+    Sequence #547: Nv36
+    Sequence #548: Nv37
+    Sequence #549: Nv38
+    Sequence #550: Nv39
+    Sequence #551: Nv4
+    Sequence #552: Nv40
+    Sequence #553: Nv41
+    Sequence #554: Nv42
+    Sequence #555: Nv43
+    Sequence #556: Nv44
+    Sequence #557: Nv45
+    Sequence #558: Nv46
+    Sequence #559: Nv47
+    Sequence #560: Nv48
+    Sequence #561: Nv49
+    Sequence #562: Nv5
+    Sequence #563: Nv50
+    Sequence #564: Nv51
+    Sequence #565: Nv52
+    Sequence #566: Nv53
+    Sequence #567: Nv54
+    Sequence #568: Nv55
+    Sequence #569: Nv56
+    Sequence #570: Nv57
+    Sequence #571: Nv58
+    Sequence #572: Nv59
+    Sequence #573: Nv6
+    Sequence #574: Nv60
+    Sequence #575: Nv61
+    Sequence #576: Nv62
+    Sequence #577: Nv63
+    Sequence #578: Nv64
+    Sequence #579: Nv65
+    Sequence #580: Nv66
+    Sequence #581: Nv67
+    Sequence #582: Nv68
+    Sequence #583: Nv69
+    Sequence #584: Nv7
+    Sequence #585: Nv70
+    Sequence #586: Nv71
+    Sequence #587: Nv72
+    Sequence #588: Nv73
+    Sequence #589: Nv74
+    Sequence #590: Nv75
+    Sequence #591: Nv76
+    Sequence #592: Nv77
+    Sequence #593: Nv78
+    Sequence #594: Nv79
+    Sequence #595: Nv8
+    Sequence #596: Nv80
+    Sequence #597: Nv81
+    Sequence #598: Nv82
+    Sequence #599: Nv9
+    Sequence #600: Ta_13161.A
+    Sequence #601: Ta_13161.B
+    Sequence #602: Ta_13161.C
+    Sequence #603: Ta_13161.D
+    Sequence #604: Ta_14836.A
+    Sequence #605: Ta_14836.B
+    Sequence #606: Ta_16471.A
+    Sequence #607: Ta_16471.B
+    Sequence #608: Ta_18460.A
+    Sequence #609: Ta_18460.B
+    Sequence #610: Ta_18460.C
+    Sequence #611: Ta_18460.D
+    Sequence #612: Ta_18460.E
+    Sequence #613: Ta_20649.A
+    Sequence #614: Ta_20649.B
+    Sequence #615: Ta_26089.A
+    Sequence #616: Ta_26089.B
+    Sequence #617: Ta_26089.C
+    Sequence #618: Ta_27665.A
+    Sequence #619: Ta_27665.B
+    Sequence #620: Ta_27665.C
+    Sequence #621: Ta_28417.A
+    Sequence #622: Ta_28417.B
+    Sequence #623: Ta_28417.C
+    Sequence #624: Ta_30033.A
+    Sequence #625: Ta_30033.B
+    Sequence #626: Ta_30944.A
+    Sequence #627: Ta_30944.B
+    Sequence #628: Ta_58696.A
+    Sequence #629: Ta_58696.B
+    Sequence #630: Ta_9099.A
+   Alignment contains 630 sequences of length 54
+
+Reading tree...
+Tree contains 630 external nodes
+
+Alignment and Tree data successfully read
+**********************************************************
+Observed number of invariant sites: 0
+Observed aminoacid frequencies:
+ A: 0.055    C: 0.131    D: 0.050    E: 0.061    F: 0.055   
+ G: 0.071    H: 0.049    I: 0.038    K: 0.071    L: 0.064   
+ M: 0.015    N: 0.033    P: 0.033    Q: 0.035    R: 0.047   
+ S: 0.045    T: 0.039    V: 0.051    W: 0.012    Y: 0.047   
+**********************************************************
+
+Model................................ : JTT
+  Number of parameters............... : 1257 (0 + 1257 branch length estimates)
+ -lnL................................ = 45638.94     (0h2m19s)
+
+Model................................ : JTT+F
+  Number of parameters............... : 1276 (19 + 1257 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 70887.46     (0h1m16s)
+
+Error at attempt: 0. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 10 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 1. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 11 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 2. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 12 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 3. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 13 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 4. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 14 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 5. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 15 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 6. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 16 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 7. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 17 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 8. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 18 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Error>
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Error at attempt: 9. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 19 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 10. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 20 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 11. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 21 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 12. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 22 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 13. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 23 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Error>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Error at attempt: 14. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 24 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 15. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 25 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 16. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 26 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 17. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 27 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 18. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 28 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 19. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 29 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Error>
+Phyml-Output>. Type any key to exit.
+Error at attempt: 20. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 30 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Error>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Error at attempt: 21. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 31 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 22. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 32 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 23. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 33 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 24. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 34 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 25. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 35 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 26. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 36 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 27. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 37 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 28. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 38 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 29. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 39 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Error>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Error at attempt: 30. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 40 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 31. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 41 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 32. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 42 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 33. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 43 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 34. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 44 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 35. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 45 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 36. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 46 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 37. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 47 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 38. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 48 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 39. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 49 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 40. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 50 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 41. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 51 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 42. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 52 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Error>
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Error at attempt: 43. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 53 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Error>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Error at attempt: 44. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 54 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 45. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 55 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 46. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 56 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 47. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 57 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 48. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 58 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+Error at attempt: 49. (50 attempts will be tried)
+Phyml's exit value: 1 (there was probably some error)
+Phyml's command-line: /home/kochbj/src/ProtTest2.4/bin/phyml-prottest-linux -i example4.phy_alignment_phyml_905 -c 1 -m JTT -v e     -o lr -f d -u example4.phy_tree______phyml_905 -d aa -b 0 -s NNI       --r_seed 59 
+Please, take a look at the Phyml's log below:
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>                                 ..........................                                      
+Phyml-Output> ooooooooooooooooooooooooooooo        CURRENT SETTINGS        ooooooooooooooooooooooooooooooooooo
+Phyml-Output>                                 ..........................                                      
+Phyml-Output>
+Phyml-Output>                . Sequence filename : 				 example4.phy_alignment_phyml_905
+Phyml-Output>                . Data type :             			 aa
+Phyml-Output>                . Sequence format : 				 interleaved
+Phyml-Output>                . Number of data sets : 			 1
+Phyml-Output>                . Nb of bootstrapped data sets : 		 0
+Phyml-Output>                . Model name : 					 JTT
+Phyml-Output>                . Proportion of invariable sites :		 estimated
+Phyml-Output>                . Number of subst. rate categs : 		 1
+Phyml-Output>                . Gamma distribution parameter : 		 estimated
+Phyml-Output>                . Amino acid equilibrium frequencies : 		 model
+Phyml-Output>                . Optimise tree topology : 			 no
+Phyml-Output>                . Evaluted tree : 				 file "user tree (example4.phy_tree______phyml_905)"
+Phyml-Output>                . Optimise branch lengths : 			 yes
+Phyml-Output>                . Optimise substitution model parameters : 	 yes
+Phyml-Output>                . Run ID : 					 none
+Phyml-Output>
+Phyml-Output> oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>
+Phyml-Output>. Compressing sequences...
+Phyml-Output>
+Phyml-Output>. 54 patterns found. (out of a total of 54 sites) 
+Phyml-Output>
+Phyml-Output>. 3 sites without polymorphism (5.56%).
+Phyml-Output>
+Phyml-Output>. Reading tree...
+Phyml-Output>
+Phyml-Output>. Removing the root...
+Phyml-Output>
+Phyml-Output>. This analysis requires at least 38Mo of memory space.
+Phyml-Output>
+Phyml-Output>log_site_lk < -MDBL_MAX
+Phyml-Output>
+Phyml-Output>. Type any key to exit.
+Phyml-Error>
+50 failed attempts to call phyml with this model
+There was some error and the program will exit.
+Most errors are related to alignment format problems. Check your alignment, please.

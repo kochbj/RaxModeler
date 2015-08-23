@@ -1,0 +1,8 @@
+nohup ScrewFormats -of nexus example2.phy &
+12471 gry-compute01.core.nhgri.nih.gov Tue Mar 15 11:27:08 EDT 2011
+nohup ../main.py --alnformat nexus -t 2 --dtc --startingtree ./example2.tre --treeformat nexus example2.nex -m MTART LG RTREV MTMAM HIVB DAYHOFF DCMUT FLU CPREV BLOSUM62 PMB MTREV VT &
+12656 gry-compute01.core.nhgri.nih.gov Tue Mar 15 11:30:08 EDT 2011
+nohup ProtTest -i example2.nex &
+12828 gry-compute01.core.nhgri.nih.gov Tue Mar 15 11:30:58 EDT 2011
+nohup ProtTest -i example2.phy -t example2.tre &
+18244 gry-compute01.core.nhgri.nih.gov Tue Mar 15 12:10:55 EDT 2011

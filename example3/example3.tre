@@ -1,0 +1,25 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Mar 15 11:33:55 2011]
+[!
+>Data file = /home/kochbj/scripts/01-Utilities/RAXModelerwithDecision/example3/example3.nex
+>Neighbor-joining search settings:
+>  Using BioNJ method
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = mean character difference
+>  (Tree is unrooted)
+]
+	Translate
+		1 Cow,
+		2 Carp,
+		3 Chicken,
+		4 Human,
+		5 Loach,
+		6 Mouse,
+		7 Rat,
+		8 Seal,
+		9 Whale,
+		10 Frog
+		;
+tree PAUP_1 = [&U] (1,(((((((2,5),10),3),4),(6,7)),9),8));
+End;

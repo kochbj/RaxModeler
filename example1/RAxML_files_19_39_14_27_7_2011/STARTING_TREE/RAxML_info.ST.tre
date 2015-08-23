@@ -1,0 +1,47 @@
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 109 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.23%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 109
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: JTT
+Fixed Base Frequencies:
+
+
+
+
+RAxML was called as follows:
+
+/home/kochbj/scripts/01-Utilities/RAXModelerwithDecision/raxmlHPC-HYBRID -p 8706818425 -y -m PROTCATJTT -s example1.phy -n ST.tre -w /home/kochbj/scripts/01-Utilities/RAXModelerwithDecision/example1/RAxML_files_19_39_14_27_7_2011/STARTING_TREE 
+
+

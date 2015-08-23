@@ -1,0 +1,20 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Mar 15 11:09:14 2011]
+[!
+>Data file = /home/kochbj/scripts/01-Utilities/RAXModelerwithDecision/example1.nex
+>Neighbor-joining search settings:
+>  Using BioNJ method
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = mean character difference
+>  (Tree is unrooted)
+]
+	Translate
+		1 cox2_leita,
+		2 cox2_crifa,
+		3 cox2_bsalt,
+		4 cox2_trybb,
+		5 cox2_tborr
+		;
+tree PAUP_1 = [&U] (1,(2,((3,5),4)));
+End;
